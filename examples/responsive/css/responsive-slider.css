@@ -1,0 +1,37 @@
+html, body {
+	height: 100%;	
+}
+
+
+#responsive-slider {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#responsive-slider .layer a {
+	color: #00F;
+}
+
+
+#responsive-slider .layer.black a {
+	color: #FFF;
+}
+
+
+@media (max-width:480px) {
+	#responsive-slider .slide-arrows {
+		display: none;
+	}
+	
+	#responsive-slider .layer {
+		display: none;
+	}
+	
+	#responsive-slider .thumbnail-scroller {
+		display: none;
+	}
+	
+	#responsive-slider .slider-main {
+		height: 100% !important;
+	}
+}
